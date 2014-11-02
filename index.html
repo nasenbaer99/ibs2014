@@ -1,25 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<title>Willkommen!</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<header>
-	<h1>Willkommen!</h1>
-</header>
-<article>
-	<p>
-		Diese Seite wird von Ihrem eigenen Webserver auf Ihrem eigenen Rechner unter der Top-Level-Domain
-		<a href="http://localhost">localhost</a> ausgeliefert.
-	</p>
-	<p>
-		Sie werden hier Ihre Website erstellen, auf der Sie auch ohne Internetzugang surfen können.
-		Erst wenn Sie mit Ihrer Arbeit zufrieden sind, geht's in die Cloud.
-	</p>
-	<p>
-		Ihr Kursteam
-	</p>
-</article>
+	<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#navbar-collapsible">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Torben Naumann</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar-collapsible">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="#section1">I</a></li>
+					<li><a href="#section2">Don't</a></li>
+					<li><a href="#section3">Know</a></li>
+					<li>&nbsp;</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section class="container-fluid" id="section1">
+		<h1 class="text-center v-center">Sectionalize.</h1>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-2 text-center">
+							<h3>Robust</h3>
+							<p>There is other content and snippets of details or features
+								that can be placed here..</p>
+							<i class="fa fa-cog fa-5x"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 text-center">
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1 text-center">
+							<h3>Simple</h3>
+							<p>You may also want to create content that compells users to
+								scroll down more..</p>
+							<i class="fa fa-user fa-5x"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 text-center">
+					<div class="row">
+						<div class="col-sm-10 text-center">
+							<h3>Clean</h3>
+							<p>In the first 30 seconds of a user's visit to your site
+								they decide if they're going to stay..</p>
+							<i class="fa fa-mobile fa-5x"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/row-->
+			<div class="row">
+				<br>
+			</div>
+		</div>
+		<!--/container-->
+	</section>
+
+	<section class="container-fluid" id="section2">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<h1>What is Bootstrap?</h1>
+				<br>
+				<p class="lead">Bootstrap is a free collection of tools for
+					creating websites and web applications. It contains HTML and
+					CSS-based design templates for typography, forms, buttons,
+					navigation and other interface components, as well as optional
+					JavaScript extensions. It is the No.1 project on GitHub with
+					65,000+ stars and 23,800 forks (as of March 2014) [1] and has been
+					used by NASA and MSNBC, among many others..</p>
+				<br> <i style="font-size: 120px" class="fa fa-camera fa-5x"></i>
+				<p>Big 'ol Camera Icon</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid" id="section3">
+		<h1 class="text-center">Bootstrap is Responsive</h1>
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h3 class="text-center">Vertical scrolling has become a popular
+					and lasting trend in Web design.</h3>
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-1">Some brand-tacular
+						designs even have home page content that is taller that 12,000
+						pixels. That's a lotta content.</div>
+					<div class="col-xs-2"></div>
+					<div class="col-xs-4 text-right">Anyhoo, this is just some
+						random blurb of text, and Bootply.com is a playground and code
+						editor for Bootstrap.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+		<!-- script references -->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/script.js"></script>
 </body>
 </html>
