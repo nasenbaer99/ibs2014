@@ -1,7 +1,13 @@
 body {
   padding-top: 50px;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+#suche {
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	
+}
+
+.col-md-4 {
+	text-align: center;
 }
